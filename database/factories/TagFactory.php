@@ -16,10 +16,8 @@ class TagFactory extends Factory
      */
     public function definition()
     {
-        $tags = ['sport', 'game', 'movie', 'policy', 'lifestyle', 'history'];
-
         return [
-            'name' => $tags[array_rand($tags)]
+            'name' => fake()->word()
         ];
     }
 }
