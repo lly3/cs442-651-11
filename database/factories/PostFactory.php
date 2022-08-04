@@ -20,7 +20,7 @@ class PostFactory extends Factory
             'title' => fake()->realText(30),
             'description' => fake()->realText(200),
             'view_count' => fake()->numberBetween(0, 200000),
-            'like_count' => fake()->numberBetween(0, 50000)
+            'like_count' => fake()->numberBetween(0, 50000),
         ];
     }
 }
